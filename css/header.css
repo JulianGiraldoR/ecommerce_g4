@@ -1,0 +1,182 @@
+/*contenedor principal donde se encuentran todos los elementos del header*/
+header{
+  
+    background-color: var(--texto-destaque);
+}
+/*contiene los elementos logo barra de busqueda y boton login*/
+nav{
+    
+    display: flex;
+    height: 115px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+/*contiene la barra de busqueda*/
+.header__busqueda{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 13rem;
+    width: 600px;
+       
+}
+
+/*---contiene logo y letras del titulo*/
+.header__logo{
+    display: flex ;
+    
+    align-items: center;    
+    
+}
+
+.header__logo p {
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .header__logo a{
+    text-decoration: none;
+    color: var(--azul-destaque);
+  }
+
+
+
+  
+
+  .header__subtitle{
+    color: black;
+  }
+
+  .header__busqueda input{/*propiedades internas del input*/
+    margin-left: 10%;
+    width: 393px;
+    height: 30px;
+    border-radius: 30px;
+    padding: 1% 3%;
+    border: none;
+
+    /*propiedades de la lupa*/
+    background-color: var(--input-bg);
+    background-image: url("../assets/lupa.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 320px;
+  }
+
+
+  /*---propiedades del boton login---*/
+  .header__btn-login{
+    display: flex;
+    width: 600px;
+    justify-content: end;
+    margin-right: 12rem;
+  }
+ 
+  .header__btn-login button {
+    width: 160px;
+    height: 40px;
+    background: none;
+    border: solid 2px var(--azul-destaque);
+    color: var(--azul-destaque);
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .header__btn-login button:hover{
+    background-color: var(--azul-destaque);
+    color: var(--texto-destaque);
+    transition: 1.1s;
+  }
+
+
+
+/*-------------tablets-----------------*/
+
+@media screen and (max-width: 1024px) {
+  .header__busqueda{
+    
+    margin-left: 6rem; 
+    }
+    .header__busqueda input{
+      margin-left: 4rem;
+    }
+
+    
+
+  nav{
+      
+      justify-content: start;    
+  }
+  
+  .header__busqueda input{
+      
+      margin-right: 3rem;
+      width: 20rem;
+      height: 2rem;
+      background-position-x: 16rem;
+     
+  }  
+  .header__btn-login{
+      
+      margin-left: 1rem;
+     
+      
+       
+    }
+    .header__btn-login button {
+      width: 166px;
+      
+    
+    }
+  }
+
+
+
+  
+/*--------------dispositivos moviles----------------*/
+
+@media screen and (max-width: 767px) {
+ 
+  .header__busqueda{
+    margin-left: 1.8rem;
+    }
+
+    .header__logo{
+        display: flex ;
+        align-items: center;    
+    }
+
+    .header__logo p {
+        
+        font-size: 18px;
+        
+      }
+  
+      input::placeholder {
+        color: transparent;
+   }
+    .header__busqueda input{
+        background-color: var(--texto-destaque);
+        margin-left: 13rem;
+        width: 25px;
+        height: 20px;
+        background-position-x: 1px;
+    }  
+
+    .header__btn-login{
+      
+        display: flex;
+        width: 200px;
+        justify-content: center;
+        
+      }
+      .header__btn-login button {
+        margin-right: 35rem;
+        width: 100px;
+        height: 30px;
+        
+      }
+    }
+
+  
+    

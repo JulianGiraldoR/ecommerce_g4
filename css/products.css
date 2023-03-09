@@ -1,0 +1,181 @@
+ main{
+  background-color: #F5F5F5;
+  display: grid;
+  
+ }
+
+.products__categoria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.products{
+  display: grid;
+  grid-template-columns: repeat(6, min-content);
+  gap: 1rem;
+  justify-content: center;
+    
+}
+.products__card{
+  background-color:#fff;
+  border: 2px solid rgba(8, 8, 8, 0.479);
+  padding: 1.25rem;
+  border-radius:1rem;
+  width: 14rem;
+} 
+.products__img{
+    width: 250px;
+  }
+
+.products__categoria{
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: #464646;
+  font-size: 1rem;
+}
+
+.products__categoria--titleright{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  margin-right: 60rem;
+}
+
+.products__categoria--titleleft{
+margin-right:3rem;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 19px;
+color: #2A7AE4;
+
+}
+
+.products__infos{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.products__infos--title{
+
+margin-top: 0.5rem;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+/* Preto/100% */
+
+color: #464646;
+}
+
+.products__infos--price{
+margin-top: 0.5rem;  
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+/* Preto/100% */
+
+color: #464646;
+}
+
+.products__infos--description{
+margin-top: 0.5rem;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+/* Azul/100% */
+
+color: #2A7AE4;
+}
+
+@media screen and (max-width: 1024px){
+
+  .products{
+   
+    grid-template-columns: repeat(3, min-content);
+    margin-right: 3rem;
+    
+   
+    
+     
+  }
+
+  .products__card{
+    
+    width: 15rem;
+   
+    
+    
+  } 
+
+  .products__img{
+    width: 180px;
+  }
+  .products__categoria{
+   
+    font-size: 0.5rem;
+    justify-content: center;
+  }
+  .products__categoria--titleright{
+    
+    margin-right: 34rem;
+  }
+  
+}
+
+@media screen and (max-width: 767px) {
+  
+  main{
+    margin-top:-4rem;
+  }
+  
+  .products{
+   
+    grid-template-columns: repeat(2, min-content);
+    margin-left: 2.5rem;
+   
+    
+   
+    
+     
+  }
+  .products__card{
+    
+    width: 10rem;
+   
+    
+    
+  } 
+
+  .products__img{
+    width: 180px;
+  }
+  .products__categoria{
+   
+    font-size: 0.3rem;
+    justify-content: center;
+  }
+  .products__categoria--titleright{
+    
+    margin-right: 6rem;
+  }
+}
