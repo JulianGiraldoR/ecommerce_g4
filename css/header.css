@@ -136,9 +136,11 @@ nav{
 /*--------------dispositivos moviles----------------*/
 
 @media screen and (max-width: 767px) {
+
+ 
  
   .header__busqueda{
-    margin-left: 1.8rem;
+    margin-left:6rem;
     }
 
     .header__logo{
@@ -157,7 +159,7 @@ nav{
    }
     .header__busqueda input{
         background-color: var(--texto-destaque);
-        margin-left: 13rem;
+        margin-left: 28rem;
         width: 25px;
         height: 20px;
         background-position-x: 1px;
@@ -171,7 +173,7 @@ nav{
         
       }
       .header__btn-login button {
-        margin-right: 35rem;
+        margin-right: 50rem;
         width: 100px;
         height: 30px;
         
