@@ -88,19 +88,21 @@ transform: translate(18%);
     }
   }
 
-  @media screen and (max-width: 412px){
+  @media screen and (min-width: 412px) and (max-width: 767px){
+
     .container{
      
       height:150px;
     }
+
     .banner h1  {
-      font-size: 0.9rem;
+      font-size: 1rem;
       
       
     }
     .banner h4 {
       
-      font-size: 0.76rem;
+      font-size: 1rem;
       
     }
 

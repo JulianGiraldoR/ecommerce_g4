@@ -150,14 +150,8 @@ nav{
     }
   }
   
-  @media screen and (max-width: 412px){
-    .header__busqueda{
-      
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      
-    }
+  @media screen and  (min-width: 412px) and (max-width: 767px){
+    
     .header__titulo a{
       font-size: 1.5rem;
     }
@@ -167,31 +161,30 @@ nav{
 
     .header__btn-login{
       
-      transform: translate(-260px);   
+      transform: translate(-200px);   
       }
 
       .header__btn-login button{
-        transform: translateY(35px);
-        margin-left: 80px;
         
-        width: 60px;
-        height: 20px;
+       
+        
+        width: 100px;
+        height: 25px;
         font-size: 0.8rem;
 
       }
 
       .header__busqueda input{
        
-        margin-left:-20px;
-       transform: translateY(20px);
-        width: 9rem;
-        height: 1.5rem;
-        background-position-x:7rem;
-        background-color: var(--input-bg);
+        
+        transform: translate(180px);  
+        width: 2rem;
+        height: 2rem;
+        background-position-x:0.5rem;
        
     }
     input::placeholder {
-      color:#13131388;
+      color: transparent;
 
     }
    
