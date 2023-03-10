@@ -1,6 +1,7 @@
 /*--------variables----------------*/
 :root{
   --bg-color: #ebebeb;
+  --header-height: 3rem;
   --input-placeholder: #d4d4d4;
   --input-bg: #efefef;
   --texto-destaque: #ffff;

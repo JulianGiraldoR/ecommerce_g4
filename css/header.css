@@ -19,6 +19,7 @@ nav{
     align-items: center;
     margin-left: 13rem;
     width: 600px;
+    transform: translate(-12%);
        
 }
 
@@ -39,18 +40,13 @@ nav{
     text-decoration: none;
     color: var(--azul-destaque);
   }
-
-
-
-  
-
   .header__subtitle{
     color: black;
   }
 
   .header__busqueda input{/*propiedades internas del input*/
-    margin-left: 10%;
-    width: 393px;
+    transform: translate(20%);
+    width: 400px;
     height: 30px;
     border-radius: 30px;
     padding: 1% 3%;
@@ -61,7 +57,7 @@ nav{
     background-image: url("../assets/lupa.png");
     background-repeat: no-repeat;
     background-position: right;
-    background-position-x: 320px;
+    background-position-x: 350px;
   }
 
 
@@ -93,40 +89,31 @@ nav{
 /*-------------tablets-----------------*/
 
 @media screen and (max-width: 1024px) {
+
   .header__busqueda{
-    
-    margin-left: 6rem; 
-    }
-    .header__busqueda input{
-      margin-left: 4rem;
-    }
-
-    
-
-  nav{
-      
-      justify-content: start;    
+    transform: translate(-180px);
   }
+ 
+
+    .header__busqueda input{
+      transform: translate(50px);
+    }
   
   .header__busqueda input{
       
       margin-right: 3rem;
-      width: 20rem;
+      width: 18rem;
       height: 2rem;
-      background-position-x: 16rem;
+      background-position-x: 11rem;
      
   }  
-  .header__btn-login{
-      
-      margin-left: 1rem;
+  
+    .header__btn-login{
      
-      
-       
-    }
-    .header__btn-login button {
-      width: 166px;
-      
-    
+      width: 200px;
+      justify-content: end;
+      margin-right:5rem;
+     
     }
   }
 
@@ -135,50 +122,79 @@ nav{
   
 /*--------------dispositivos moviles----------------*/
 
-@media screen and (max-width: 767px) {
-
- 
- 
-  .header__busqueda{
-    margin-left:6rem;
-    }
-
-    .header__logo{
-        display: flex ;
-        align-items: center;    
-    }
-
-    .header__logo p {
-        
-        font-size: 18px;
-        
-      }
+@media screen and (max-width: 768px) {
   
-      input::placeholder {
-        color: transparent;
-   }
-    .header__busqueda input{
-        background-color: var(--texto-destaque);
-        margin-left: 28rem;
-        width: 25px;
-        height: 20px;
-        background-position-x: 1px;
-    }  
+  .header__busqueda{
+    transform: translate(-180px);
+   
+    
+    }
 
     .header__btn-login{
       
-        display: flex;
-        width: 200px;
-        justify-content: center;
-        
+      transform: translate(-160px);   
       }
-      .header__btn-login button {
-        margin-right: 50rem;
-        width: 100px;
-        height: 30px;
-        
-      }
+
+      .header__busqueda input{
+       
+        background-color:#ffff;
+       transform: translate(360px);
+        width: 2rem;
+        height: 2rem;
+        background-position-x:0.5rem;
+       
+    }
+    input::placeholder {
+      color: transparent;
+
+    }
+  }
+  
+  @media screen and (max-width: 320px){
+    .header__busqueda{
+      
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .header__titulo a{
+      font-size: 1.5rem;
+    }
+    .header__subtitle{
+      font-size: 1rem;
     }
 
-  
+    .header__btn-login{
+      
+      transform: translate(-260px);   
+      }
+
+      .header__btn-login button{
+        transform: translateY(35px);
+        margin-left: 80px;
+        
+        width: 60px;
+        height: 20px;
+        font-size: 0.8rem;
+
+      }
+
+      .header__busqueda input{
+       
+        margin-left:-20px;
+       transform: translateY(20px);
+        width: 9rem;
+        height: 1.5rem;
+        background-position-x:7rem;
+        background-color: var(--input-bg);
+       
+    }
+    input::placeholder {
+      color:#13131388;
+
+    }
+   
+
+  }
     
