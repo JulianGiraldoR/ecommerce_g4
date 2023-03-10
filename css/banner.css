@@ -88,7 +88,7 @@ transform: translate(18%);
     }
   }
 
-  @media screen and (max-width: 320px){
+  @media screen and (max-width: 412px){
     .container{
      
       height:150px;

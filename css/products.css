@@ -152,7 +152,7 @@ color: #2A7AE4;
 
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 412px){
   .products{
     grid-template-columns: repeat(1, max-content);
     gap: 2rem;
