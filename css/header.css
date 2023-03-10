@@ -150,8 +150,14 @@ nav{
     }
   }
   
-  @media screen and  (min-width: 614px) and (max-width: 767px){
-    
+  @media screen and (max-width: 412px){
+    .header__busqueda{
+      
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+    }
     .header__titulo a{
       font-size: 1.5rem;
     }
@@ -161,30 +167,31 @@ nav{
 
     .header__btn-login{
       
-      transform: translate(-200px);   
+      transform: translate(-260px);   
       }
 
       .header__btn-login button{
+        transform: translateY(35px);
+        margin-left: 80px;
         
-       
-        
-        width: 100px;
-        height: 25px;
+        width: 60px;
+        height: 20px;
         font-size: 0.8rem;
 
       }
 
       .header__busqueda input{
        
-        
-        transform: translate(180px);  
-        width: 2rem;
-        height: 2rem;
-        background-position-x:0.5rem;
+        margin-left:-20px;
+       transform: translateY(20px);
+        width: 9rem;
+        height: 1.5rem;
+        background-position-x:7rem;
+        background-color: var(--input-bg);
        
     }
     input::placeholder {
-      color: transparent;
+      color:#13131388;
 
     }
    
