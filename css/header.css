@@ -150,7 +150,7 @@ nav{
     }
   }
   
-  @media screen and  (min-width: 412px) and (max-width: 767px){
+  @media screen and  (min-width: 614px) and (max-width: 767px){
     
     .header__titulo a{
       font-size: 1.5rem;
