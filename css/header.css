@@ -149,6 +149,35 @@ nav{
 
     }
   }
+
+  @media screen and (max-width: 600px){
+    .header__busqueda{
+      transform: translate(-200px);
+     
+      
+      }
+
+      .header__btn-login{
+      
+        transform: translate(-200px);   
+        }
+
+        .header__busqueda input{
+       
+          background-color:#ffff;
+         transform: translate(300px);
+          width: 2rem;
+          height: 2rem;
+          background-position-x:0.5rem;
+         
+      }
+
+  }
+
+
+
+
+  
   
   @media screen and (max-width: 412px){
     .header__busqueda{

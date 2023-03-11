@@ -152,7 +152,32 @@ color: #2A7AE4;
 
 }
 
-@media screen and (min-width: 412px) and (max-width: 767px){
+@media screen and (max-width: 600px){
+
+  .products{
+    grid-template-columns: repeat(2, max-content);
+    gap: 0.8rem;
+     
+  }
+
+  .products__card{
+    width: 15rem;
+    
+   }
+
+   .products__categoria--titleleft{
+    transform: translate(90px);
+  }
+
+  .products__categoria--titleright{
+    transform: translate(-130px);
+  }
+
+
+
+}
+
+@media screen and (max-width: 412px){
   .products{
     grid-template-columns: repeat(1, max-content);
     gap: 2rem;
@@ -169,6 +194,7 @@ color: #2A7AE4;
   .products__categoria--titleright{
     transform: translate(-2px);
   }
+
 
 }
 
