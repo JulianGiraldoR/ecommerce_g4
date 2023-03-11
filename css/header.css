@@ -10,7 +10,7 @@ nav{
     height: 115px;
     align-items: center;
     justify-content: space-between;
-    flex-direction: row;
+    
 }
 /*contiene la barra de busqueda*/
 .header__busqueda{

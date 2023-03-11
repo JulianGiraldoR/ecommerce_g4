@@ -1,0 +1,120 @@
+footer{
+    background-color: var(--texto-destaque);
+    background-color: var(--white_footer);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    line-height: 19px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+  }
+
+  .footer{  
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;  
+  }
+
+  .footer__container{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;  
+    justify-content: space-between; 
+    width: 100%;
+  }
+  
+  
+ .footer__logo{
+    display: flex;
+    margin-left: 7rem; 
+     
+}
+
+.footer__logo p {
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .footer__logo a{
+    text-decoration: none;
+    color: var(--azul-destaque);
+  }
+
+  .footer__img{
+    transform: translateY(-30%);
+  }
+
+  
+
+  .footer__text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: fit-content; 
+    color: #464646; 
+    transform: translateX(-100px);
+  }
+
+  .footer__forms {
+    display: flex;
+    margin-top: 35px;
+    flex-direction: column;
+    transform: translateX(-110px);
+    
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #464646;
+  }
+
+  .footer__forms p{
+    margin-bottom: 1rem;
+  }
+
+  .footer__forms input[type=text],
+.footer__forms textarea{
+  border: 0;
+  height: 30px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  width:30rem;
+  background-color: #FFFFFF;
+}
+
+.footer__forms textarea{
+    border-radius: 4px;
+    height: 82px;
+    padding-top: 10px;
+    resize: none;
+  }
+
+  .btn__submit {
+	background-color: var(--azul-destaque);
+ 
+	border: none;
+	color: var(--texto-destaque);
+	height: 3.2rem;
+	width: 8.13rem;
+  cursor: pointer;
+  }
+
+  .btn__submit:hover {
+	background-color: var(--texto-destaque);
+	color: black;
+    transition:1.1s ;
+  }
+
+  .footer__dev{
+    background-color: var(--white_100);
+    left: 0;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    color:#464646;
+  }
