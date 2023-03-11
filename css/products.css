@@ -20,12 +20,19 @@
   padding-bottom: 50px; 
 }
 .products__card{
+  cursor: pointer; 
   background-color:#fff;
   border: 2px solid rgba(8, 8, 8, 0.479);
   padding: 1.25rem;
   border-radius:1rem;
   width: 14rem;
 } 
+
+
+.products__card:hover{
+  transform: scale(1.1);
+  transition: 1.1s;
+}
 
 .products__categoria{
   align-items: center;

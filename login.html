@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/login.css">
+
+    <title>Login</title>
+</head>
+<body>
+    <header class="header"> 
+        <nav class="nav__container">
+            <div class="header__busqueda">
+                <div class="header__logo">
+                    <img class="header__img" src="./assets/logo.png" alt="logo tienda">
+                    <p class="header__titulo"><a href="index.html">ALURA</a></p>
+                    <p class="header__subtitle">Geek</p>
+                </div>
+                <input type="text" placeholder="Busqueda">
+            </div>
+            <div class="header__btn-login">
+                <a href="#"><button type="submit">Login</button></a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main__login">
+        <form action="" class="login">
+          <h2>Iniciar Sesion</h2>
+          <input type="text" placeholder="Ingrese su Email" required/>
+          <input type="password" placeholder="Contraseña" name="password" autocomplete="off" required/>
+          <input type="submit" class="btn__submit" value="Entrar"/>
+        </form>
+      </main>
+        <footer>
+            <section class="footer">
+    
+    
+                <div class="footer__container">
+                    <div class="footer__name">
+                        <div class="footer__logo">
+                            <img class="footer__img" src="./assets/logo.png" alt="logo tienda">
+                            <p class="header__titulo"><a href="#">ALURA</a></p>
+                            <p class="header__subtitle">Geek</p>
+                        </div>
+                    </div>
+                    
+    
+                  <div class="footer__text">
+                    <a href="#">Quienes somos</a href="">
+                    <a href="#">Politicas de privacidad</a href="">
+                    <a href="#">Programa fidelidad</a href="">
+                    <a href="#">Anuncie aqui</a href="">
+                  </div>
+                
+                <form class="footer__forms">
+                  <p>Habla con Nosotros</p>
+                  <input type="text" placeholder="Digite su nombre" required/>
+                  <textarea placeholder="Escriba un mensaje" required></textarea>
+                  <input type="submit" value="Enviar mensaje" class="btn__submit" data-submit />
+                </form>
+            </div></section>
+              <div class="footer__dev">
+              <p>Diseñado por Julian Giraldo</p>
+              <p>2023</p>
+              </div>
+        </footer>
+   
+
+    
+</body>
+</html>
