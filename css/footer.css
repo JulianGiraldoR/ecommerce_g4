@@ -237,3 +237,43 @@ footer{
             }
                
             }
+
+            @media screen and (max-width: 412px) {
+
+              .footer{
+                width: 412px;
+              }
+           
+              .footer__logo{
+                
+                transform: translateX(-4rem);
+          
+              
+                 
+                  
+                }
+             
+      
+              .footer__text{
+               
+                
+                transform: translateX(-12rem);
+                margin-top: 4.5rem;
+                
+              }
+              .footer__forms {
+                
+                transform: translateX(-6rem);
+                
+                
+               
+              }
+        
+              .footer__forms input[type=text],
+              .footer__forms textarea{
+                
+                width:13rem;
+               
+              }
+                 
+              }

@@ -179,8 +179,10 @@ color: #2A7AE4;
 
 @media screen and (max-width: 412px){
   .products{
+    width: 412px;
     grid-template-columns: repeat(1, max-content);
     gap: 2rem;
+    
      
   }
   .products__card{
@@ -189,10 +191,10 @@ color: #2A7AE4;
    }
 
   .products__categoria--titleleft{
-    transform: translate(10px);
+    transform: translate(-2rem);
   }
   .products__categoria--titleright{
-    transform: translate(-2px);
+    transform: translate(-9rem);
   }
 
 
