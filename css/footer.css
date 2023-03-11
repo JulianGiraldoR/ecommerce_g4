@@ -118,3 +118,118 @@ footer{
     width: 100%;
     color:#464646;
   }
+
+  /*medias query*/
+
+  @media screen and (max-width: 1024px) {
+    .footer__logo{
+       
+        margin-left: 4rem; 
+         
+    }
+
+    .footer__logo p {
+        
+        font-size: 20px;
+        
+      }
+     
+    
+      .footer__img{
+        width: 30px;
+        transform: translateY(-0.1rem);
+      }
+
+      .footer__text{
+       
+        
+        transform: translateX(-40px);
+      }
+      .footer__forms {
+        
+        transform: translateX(-60px);
+        
+       
+      }
+
+      .footer__forms input[type=text],
+      .footer__forms textarea{
+        
+        width:20rem;
+       
+      }
+         
+      }
+
+      @media screen and (max-width: 768px) {
+       
+    
+        
+        .footer__logo p {
+        
+            
+            transform: translateY(1rem);
+            
+          }
+        
+          .footer__img{
+            width: 30px;
+            transform: translateY(1rem);
+            margin-bottom: 13rem;
+          }
+    
+          .footer__text{
+           
+            
+            transform: translate(-160px);
+            margin-bottom: -110px;
+          }
+          .footer__forms {
+            
+            transform: translateX(-60px);
+            
+           
+          }
+    
+
+             
+          }
+
+          @media screen and (max-width: 600px) {
+
+           
+            .footer__logo p {
+        
+            
+                transform: translateY(1.4rem);
+                
+              }
+              .footer__img{
+                
+                transform: translateY(1.2rem);
+                
+              }
+    
+      
+            .footer__text{
+             
+              
+              transform: translateX(-130px);
+              
+            }
+            .footer__forms {
+              
+              transform: translateX(-1rem);
+              
+              
+             
+            }
+      
+            .footer__forms input[type=text],
+            .footer__forms textarea{
+              
+              width:13rem;
+             
+            }
+               
+            }
