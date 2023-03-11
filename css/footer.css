@@ -9,6 +9,8 @@ footer{
     position: relative;
     text-align: left;
     width: 100%;
+    
+    
   }
 
   .footer{  
@@ -16,7 +18,7 @@ footer{
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    padding: 20px;  
+     
   }
 
   .footer__container{
@@ -27,6 +29,7 @@ footer{
     gap: 15px;  
     justify-content: space-between; 
     width: 100%;
+    padding-top: 30px;
   
   }
   

@@ -16,7 +16,8 @@
   display: grid;
   justify-content:center;
   grid-template-columns: repeat(6, max-content);
-  gap: 1rem;  
+  gap: 1rem; 
+  padding-bottom: 50px; 
 }
 .products__card{
   background-color:#fff;
