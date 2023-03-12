@@ -118,8 +118,7 @@ footer{
 
  
   .footer__social {
-    padding-top:2rem ;
-  
+    padding-top:1rem ;
     display: flex;
     justify-content: center;
     column-gap: 1.3rem;
