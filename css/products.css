@@ -9,7 +9,7 @@
  .products {
   width: 100%;
   grid-area: revert;
-  align-items: center;
+  
   justify-content: center;
   display: grid;
   grid-auto-rows: 25rem;
@@ -129,8 +129,15 @@ color: #2A7AE4;
   .products {
    
     
-    grid-template-columns: repeat(auto-fill, minmax(min(100%,20rem),1fr));
-    margin-left: 2rem;
+        
+        justify-content: center;
+        display: grid;
+        grid-auto-rows: 30rem;
+       
+        gap: 1rem;
+        padding-bottom: 2rem;
+        
+        margin-left: 1rem;
 }
 
 
