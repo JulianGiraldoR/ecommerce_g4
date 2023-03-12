@@ -126,21 +126,30 @@ color: #2A7AE4;
 }
 
 @media screen and (max-width: 1440px){
-  .products {
-   
-    
-        
-        justify-content: center;
-        display: grid;
-        grid-auto-rows: 30rem;
-       
-        gap: 1rem;
-        padding-bottom: 2rem;
-        
-        margin-left: 1rem;
+  .products {    
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%,12rem),1fr));
+    display: grid;
+    grid-auto-rows: 18rem;
+    gap: 1rem;
+    padding-bottom: 2rem;
+    margin-left: 5px;
+}
+.products__card {
+  width: 160px;
 }
 
+}
 
+@media screen and (max-width: 1024px){
+  .products{
+  grid-template-columns: repeat(auto-fill, minmax(min(100%,10rem),1fr));
+    /* display: grid; */
+    grid-auto-rows: 18rem;
+  }
+  .products__card {
+    width: 12rem;
+  }
 }
 
 @media screen and (max-width: 768px){
