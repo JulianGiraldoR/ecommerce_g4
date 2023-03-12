@@ -119,8 +119,7 @@ footer{
  
   .footer__social {
     padding-top:2rem ;
-    padding-bottom: 2rem;
-    background-color: var(--white_100);
+  
     display: flex;
     justify-content: center;
     column-gap: 1.3rem;
@@ -128,7 +127,6 @@ footer{
 
 .footer__social-link {
     background-color: rgb(47, 44, 44);
-    
     color: #fff;
     font-size: 1.125rem;
     padding: 0.6rem;
@@ -143,10 +141,10 @@ footer{
 
 .footer__copy {
     display: block;
-    margin-top: 4.5rem;
-    color: #ffff;
+    margin-top: 2rem;
+    color: #464646;
     text-align: center;
-    font-size:10px;
+    font-size:2rem;
 }
 
   /*medias query*/
