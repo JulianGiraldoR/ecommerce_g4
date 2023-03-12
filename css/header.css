@@ -96,4 +96,39 @@ nav{
 }
 }
 
+@media screen and (max-width: 425px) {
+  .header__busqueda {
+    
+    margin:0;
+    column-gap:0;
+    justify-content: space-around;
+}
+
+.header__logo p {
+  
+  font-size: 20px;
+  
+}
+.header__busqueda input {
+  width: 40%; 
+}
+
+.header__btn-login button {
+  width: 80px;
+}
+}
+
+@media screen and (max-width: 375px) {
+  
+.header__logo p {
+  
+  font-size: 15px;
+  
+}
+.header__busqueda input {
+  width: 27%;
+}
+
+
+
   
