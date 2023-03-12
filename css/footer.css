@@ -119,6 +119,7 @@ footer{
  
   .footer__social {
     padding-top:2rem ;
+    padding-bottom: 2rem;
     background-color: var(--white_100);
     display: flex;
     justify-content: center;
