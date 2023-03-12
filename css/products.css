@@ -8,16 +8,16 @@
 
  .products {
   width: 100%;
-  grid-area: revert;
-  
-  justify-content: center;
-  display: grid;
-  grid-auto-rows: 25rem;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%,20rem),1fr));
-  gap: 1rem;
-  padding-bottom: 2rem;
-  justify-content: space-evenly;
-  margin-left: 2rem;
+    grid-area: revert;
+    /* justify-content: center; */
+    display: grid;
+    /* gap: 1rem; */
+    grid-auto-rows: 25rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%,25rem),1fr));
+    gap: 1rem;
+    padding-bottom: 2rem;
+    justify-content: space-evenly;
+    margin-left: 2.6rem;
 }
 
 
@@ -41,7 +41,7 @@
   border: 2px solid rgba(8, 8, 8, 0.479);
   padding: 1rem;
   border-radius:1rem;
-  width: 22rem;
+  width: 20rem;
   
 } 
 
