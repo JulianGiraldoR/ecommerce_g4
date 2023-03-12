@@ -118,6 +118,7 @@ footer{
 
  
   .footer__social {
+    padding-top:2rem ;
     background-color: var(--white_100);
     display: flex;
     justify-content: center;
@@ -144,7 +145,7 @@ footer{
     margin-top: 4.5rem;
     color: #ffff;
     text-align: center;
-    font-size: var(--smaller-font-size);
+    font-size:10px;
 }
 
   /*medias query*/
