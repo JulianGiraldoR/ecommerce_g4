@@ -125,7 +125,7 @@ footer{
 }
 
 .footer__social-link {
-    background-color: rgb(47, 44, 44);
+    background-color: var(--azul-destaque);
     color: #fff;
     font-size: 1.125rem;
     padding: 0.6rem;
