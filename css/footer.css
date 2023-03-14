@@ -1,7 +1,7 @@
 footer{
     background-color: var(--texto-destaque);
     background-color: var(--white_footer);
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     letter-spacing: 0em;
@@ -13,34 +13,23 @@ footer{
     
     
   }
-
-  .footer{  
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-     
-  }
-
   .footer__container{
-    
-    align-items: flex-start;
     display: flex;
-    flex-direction: row;
-    gap: 15px;  
-    justify-content: space-between; 
     width: 100%;
     padding-top: 30px;
+    justify-content: space-between;
+  
   
   }
   
-  
- .footer__logo{
+  .footer__name .footer__logo{
+    align-items: center;
     display: flex;
-    margin-left: 7rem; 
-     
-}
-
+    margin-left: 4rem;
+    
+    
+    
+  }
 .footer__logo p {
     cursor: pointer;
     font-size: 30px;
@@ -51,26 +40,24 @@ footer{
     color: var(--azul-destaque);
   }
 
-  .footer__img{
-    transform: translateY(-30%);
-  }
-
+ 
   
 
   .footer__text{
+    
     display: flex;
     flex-direction: column;
     row-gap: 20px;
-    width: fit-content; 
     color: #464646; 
-    transform: translateX(-100px);
+    
   }
 
   .footer__forms {
+    text-align: justify;
     display: flex;
-  
     flex-direction: column;
-    transform: translateX(-100px);
+    margin-right: 2rem;
+    
     
     
     
@@ -82,15 +69,18 @@ footer{
 
   .footer__forms p{
     margin-bottom: 1rem;
+    justify-content: center;
   }
 
   .footer__forms input[type=text],
 .footer__forms textarea{
   border: 0;
-  height: 30px;
+  width: 30rem;
+  
+
   margin-bottom: 10px;
-  padding-left: 5px;
-  width:30rem;
+  text-align: justify;
+  
   background-color: #FFFFFF;
 }
 
@@ -166,19 +156,7 @@ footer{
     
       .footer__img{
         width: 30px;
-        transform: translateY(-0.1rem);
-      }
-
-      .footer__text{
-       
         
-        transform: translateX(-40px);
-      }
-      .footer__forms {
-        
-        transform: translateX(-60px);
-        
-       
       }
 
       .footer__forms input[type=text],
@@ -194,31 +172,19 @@ footer{
        
    
         
-        .footer__logo p {
+       
         
-            
-            transform: translateY(-0.5rem);
-            
-          }
-        
-          .footer__img{
-            width: 30px;
-            transform: translateY(-0.6rem);
-            margin-bottom: 13rem;
-          }
-    
           .footer__text{
            
-            
-            transform: translateX(-160px);
-            margin-top: 90px;
-          }
-          .footer__forms {
-            
-            transform: translateX(-60px);
-            
+            justify-content: flex-end;
+            transform: translateX(-9.1rem);
+            row-gap: 10px;
            
+            
           }
+    
+         
+         
           .footer__social-link {
             padding: 0.25rem;
             border-radius: 0.25rem;
@@ -232,34 +198,13 @@ footer{
 
           @media screen and (max-width: 600px) {
 
-           
-            .footer__logo p {
-        
-            
-                transform: translateY(-0.2rem);
-                
-              }
-              .footer__img{
-                
-                transform: translateY(-0.3rem);
-                
-              }
     
-      
-            .footer__text{
-             
+            .footer__text {
+                
+              row-gap: 10px;
               
-              transform: translateX(-130px);
-              margin-top: 4.5rem;
-              
-            }
-            .footer__forms {
-              
-              transform: translateX(-1rem);
-              
-              
-             
-            }
+          }
+            
       
             .footer__forms input[type=text],
             .footer__forms textarea{
@@ -270,42 +215,42 @@ footer{
                
             }
 
-            @media screen and (max-width: 412px) {
+            @media screen and (max-width: 425px) {
 
-              .footer{
-                width: 412px;
-              }
-           
-              .footer__logo{
-                
-                transform: translateX(-4rem);
-          
               
-                 
-                  
-                }
+              .footer__text {
+               
+              
+                font-size: 15px;
+                margin-right: -6.5rem;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                
+            }
+            .footer__forms{
+              
+              width: 10rem;
+                justify-content: flex-end;
+                
+                
+               
+                
+              
+            }
+              .footer__container{
+                display: grid;
+                width: 100%;
+                padding-top: 30px;
+                justify-content: center;
+                align-content: space-around;
+  
+                justify-items: end;
+              }
              
       
-              .footer__text{
-               
-                
-                transform: translateX(-12rem);
-               
-                
-              }
-              .footer__forms {
-                
-                transform: translateX(-6rem);
-                
-                
-               
-              }
+              
+             
         
-              .footer__forms input[type=text],
-              .footer__forms textarea{
-                
-                width:13rem;
-               
-              }
+              
                  
               }

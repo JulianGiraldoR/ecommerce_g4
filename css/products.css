@@ -135,7 +135,7 @@ color: #2A7AE4;
     width: auto;
     grid-template-columns: repeat(auto-fit, minmax(min(100%,12rem),1fr));
    
-    grid-auto-rows: 18rem;
+    grid-auto-rows: 20rem;
     padding-bottom: 2rem;
     margin-left: 1rem;
 }
@@ -168,7 +168,7 @@ color: #2A7AE4;
     grid-template-columns: repeat(3, max-content);
     gap: 1rem;
     justify-content: space-around;
-    grid-auto-rows: 18rem;
+    grid-auto-rows: 20rem;
     padding-bottom: 2rem;
     justify-content: space-evenly;
     margin-left:0; 
@@ -193,7 +193,7 @@ color: #2A7AE4;
 
   .products{
     grid-template-columns: repeat(2, max-content);
-    grid-auto-rows: 18rem;
+   
     gap: 2rem;
    
 }
@@ -222,7 +222,7 @@ color: #2A7AE4;
   .products{
   
     grid-template-columns: repeat(1, max-content);
-    grid-auto-rows: 22rem;   
+    grid-auto-rows: 23rem;   
 }
 .products__card{
   width: 18rem;
