@@ -23,6 +23,7 @@ nav {
 /*contiene la barra de busqueda*/
 .header__busqueda {
   display: flex;
+  align-items: center;
   margin: 5rem;
   justify-content: space-between;
   width: 2650px;
@@ -103,6 +104,25 @@ nav {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .header__busqueda {
+
+    margin: 0rem;
+    
+  }
+  .header__logo p {
+
+    font-size: 20px;
+
+  }
+  .header__busqueda input {
+    
+    width: 35%;
+    height: 20px;
+  }
+}
+
+
 @media screen and (max-width: 425px) {
   .header__busqueda {
 
@@ -113,12 +133,14 @@ nav {
 
   .header__logo p {
 
-    font-size: 20px;
+    font-size: 14px;
 
   }
 
   .header__busqueda input {
+    
     width: 40%;
+    height: 20px;
   }
 
   .header__btn-login button {
