@@ -6,10 +6,7 @@
   width: 100%;
   
  }
- .main__body{
-  width: 100%;
- }
-
+ 
  .products {
   width: 100%;
     grid-area: revert;
@@ -213,17 +210,13 @@ color: #2A7AE4;
 }
 
 @media screen and (max-width: 425px){
-  main.main__body{
-    background-color: #F5F5F5;
-   
-    display: contents;
-  }
-  
+
 
   .products{
   
     grid-template-columns: repeat(1, max-content);
-    grid-auto-rows: 23rem;   
+    grid-auto-rows: 23rem;  
+     
 }
 .products__card{
   width: 18rem;
