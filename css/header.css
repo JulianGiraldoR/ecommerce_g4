@@ -68,8 +68,10 @@ nav {
 /*---propiedades del boton login---*/
 .header__btn-login {
   display: flex;
+ 
+  
 
-  justify-content: flex-end;
+  
 
 }
 
@@ -91,10 +93,14 @@ nav {
 
 
 
+
 /*-------------MEDIA QUERY-----------------*/
 
 
 /*--------------dispositivos moviles----------------*/
+
+
+
 
 @media screen and (max-width: 768px) {
   .header__busqueda {
