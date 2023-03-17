@@ -44,6 +44,7 @@
   padding: 1rem;
   border-radius:1rem;
   width: 15rem;
+  margin-left: 6rem;
   
 } 
 
@@ -134,10 +135,11 @@ color: #2A7AE4;
    
     grid-auto-rows: 20rem;
     padding-bottom: 2rem;
-    margin-left: 1rem;
+    
 }
 .products__card {
   width: 13rem;
+  margin-left: 1rem;
 }
 
 
